@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E4A5381CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4A5371CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.m */; };
+		27E4A53B1CDF8C2E00CB625A /* RobosoNetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E4A53A1CDF8C2E00CB625A /* RobosoNetOperation.m */; };
+		BEC6234C1CDDCB2E00EBAD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6234B1CDDCB2E00EBAD98 /* main.m */; };
+		BEC6234F1CDDCB2E00EBAD98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6234E1CDDCB2E00EBAD98 /* AppDelegate.m */; };
+		BEC623521CDDCB2E00EBAD98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC623511CDDCB2E00EBAD98 /* ViewController.m */; };
+		BEC623551CDDCB2E00EBAD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC623531CDDCB2E00EBAD98 /* Main.storyboard */; };
+		BEC623581CDDCB2E00EBAD98 /* RoposoSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEC623561CDDCB2E00EBAD98 /* RoposoSample.xcdatamodeld */; };
+		BEC6235A1CDDCB2E00EBAD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC623591CDDCB2E00EBAD98 /* Assets.xcassets */; };
+		BEC6235D1CDDCB2E00EBAD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC6235B1CDDCB2E00EBAD98 /* LaunchScreen.storyboard */; };
+		BEC6236C1CDDCD0F00EBAD98 /* iOS_Android Data.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC6236B1CDDCD0F00EBAD98 /* iOS_Android Data.json */; };
+		BEC6236F1CDDCDC800EBAD98 /* RoposoConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6236E1CDDCDC800EBAD98 /* RoposoConstant.m */; };
+		BEC623721CDDD04000EBAD98 /* RoposoStoryAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC623711CDDD04000EBAD98 /* RoposoStoryAuthor.m */; };
+		BEC623751CDDD06300EBAD98 /* RoposoStoryDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC623741CDDD06300EBAD98 /* RoposoStoryDetails.m */; };
+		BEC623791CDDE36A00EBAD98 /* RoposoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC623771CDDE36A00EBAD98 /* RoposoBaseViewController.m */; };
+		BEC6237A1CDDE36A00EBAD98 /* RoposoBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC623781CDDE36A00EBAD98 /* RoposoBaseViewController.xib */; };
+		BEC6237E1CDDF5F000EBAD98 /* RoposoStoryCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6237C1CDDF5F000EBAD98 /* RoposoStoryCardCell.m */; };
+		BEC6237F1CDDF5F000EBAD98 /* RoposoStoryCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC6237D1CDDF5F000EBAD98 /* RoposoStoryCardCell.xib */; };
+		BEC623831CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC623811CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.m */; };
+		BEC623841CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC623821CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27E4A5361CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RoposoImageViewCategory.h"; sourceTree = "<group>"; };
+		27E4A5371CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RoposoImageViewCategory.m"; sourceTree = "<group>"; };
+		27E4A5391CDF8C2E00CB625A /* RobosoNetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobosoNetOperation.h; sourceTree = "<group>"; };
+		27E4A53A1CDF8C2E00CB625A /* RobosoNetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobosoNetOperation.m; sourceTree = "<group>"; };
+		BEC623471CDDCB2E00EBAD98 /* RoposoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC6234B1CDDCB2E00EBAD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEC6234D1CDDCB2E00EBAD98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEC6234E1CDDCB2E00EBAD98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEC623501CDDCB2E00EBAD98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
+		BEC623511CDDCB2E00EBAD98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
+		BEC623541CDDCB2E00EBAD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC623571CDDCB2E00EBAD98 /* RoposoSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoposoSample.xcdatamodel; sourceTree = "<group>"; };
+		BEC623591CDDCB2E00EBAD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC6235C1CDDCB2E00EBAD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC6235E1CDDCB2E00EBAD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC6236B1CDDCD0F00EBAD98 /* iOS_Android Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "iOS_Android Data.json"; sourceTree = "<group>"; };
+		BEC6236D1CDDCDC800EBAD98 /* RoposoConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoConstant.h; sourceTree = "<group>"; };
+		BEC6236E1CDDCDC800EBAD98 /* RoposoConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoConstant.m; sourceTree = "<group>"; };
+		BEC623701CDDD04000EBAD98 /* RoposoStoryAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoStoryAuthor.h; sourceTree = "<group>"; };
+		BEC623711CDDD04000EBAD98 /* RoposoStoryAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoStoryAuthor.m; sourceTree = "<group>"; };
+		BEC623731CDDD06300EBAD98 /* RoposoStoryDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoStoryDetails.h; sourceTree = "<group>"; };
+		BEC623741CDDD06300EBAD98 /* RoposoStoryDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoStoryDetails.m; sourceTree = "<group>"; };
+		BEC623761CDDE36A00EBAD98 /* RoposoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoBaseViewController.h; sourceTree = "<group>"; };
+		BEC623771CDDE36A00EBAD98 /* RoposoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoBaseViewController.m; sourceTree = "<group>"; };
+		BEC623781CDDE36A00EBAD98 /* RoposoBaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoposoBaseViewController.xib; sourceTree = "<group>"; };
+		BEC6237B1CDDF5F000EBAD98 /* RoposoStoryCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoStoryCardCell.h; sourceTree = "<group>"; };
+		BEC6237C1CDDF5F000EBAD98 /* RoposoStoryCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoStoryCardCell.m; sourceTree = "<group>"; };
+		BEC6237D1CDDF5F000EBAD98 /* RoposoStoryCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoposoStoryCardCell.xib; sourceTree = "<group>"; };
+		BEC623801CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoposoStoryDetailsViewController.h; sourceTree = "<group>"; };
+		BEC623811CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoposoStoryDetailsViewController.m; sourceTree = "<group>"; };
+		BEC623821CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoposoStoryDetailsViewController.xib; sourceTree = "<group>"; };
+		BEC623851CDE4C5700EBAD98 /* FollowingAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowingAuthor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC623441CDDCB2E00EBAD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC6233E1CDDCB2E00EBAD98 = {
+			isa = PBXGroup;
+			children = (
+				BEC623491CDDCB2E00EBAD98 /* RoposoSample */,
+				BEC623481CDDCB2E00EBAD98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC623481CDDCB2E00EBAD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC623471CDDCB2E00EBAD98 /* RoposoSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC623491CDDCB2E00EBAD98 /* RoposoSample */ = {
+			isa = PBXGroup;
+			children = (
+				BEC623641CDDCC0D00EBAD98 /* RoposoSample */,
+				BEC623681CDDCC0D00EBAD98 /* UtilityAndConstants */,
+				BEC623691CDDCC0D00EBAD98 /* WebService */,
+				BEC6234D1CDDCB2E00EBAD98 /* AppDelegate.h */,
+				BEC6234E1CDDCB2E00EBAD98 /* AppDelegate.m */,
+				BEC623531CDDCB2E00EBAD98 /* Main.storyboard */,
+				BEC623591CDDCB2E00EBAD98 /* Assets.xcassets */,
+				BEC6235B1CDDCB2E00EBAD98 /* LaunchScreen.storyboard */,
+				BEC6235E1CDDCB2E00EBAD98 /* Info.plist */,
+				BEC623561CDDCB2E00EBAD98 /* RoposoSample.xcdatamodeld */,
+				BEC6234A1CDDCB2E00EBAD98 /* Supporting Files */,
+			);
+			path = RoposoSample;
+			sourceTree = "<group>";
+		};
+		BEC6234A1CDDCB2E00EBAD98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6234B1CDDCB2E00EBAD98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC623641CDDCC0D00EBAD98 /* RoposoSample */ = {
+			isa = PBXGroup;
+			children = (
+				BEC623651CDDCC0D00EBAD98 /* Model */,
+				BEC623661CDDCC0D00EBAD98 /* ViewController */,
+				BEC623671CDDCC0D00EBAD98 /* Views */,
+				BEC623851CDE4C5700EBAD98 /* FollowingAuthor.h */,
+			);
+			path = RoposoSample;
+			sourceTree = "<group>";
+		};
+		BEC623651CDDCC0D00EBAD98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEC623701CDDD04000EBAD98 /* RoposoStoryAuthor.h */,
+				BEC623711CDDD04000EBAD98 /* RoposoStoryAuthor.m */,
+				BEC623731CDDD06300EBAD98 /* RoposoStoryDetails.h */,
+				BEC623741CDDD06300EBAD98 /* RoposoStoryDetails.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEC623661CDDCC0D00EBAD98 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BEC623501CDDCB2E00EBAD98 /* ViewController.h */,
+				BEC623511CDDCB2E00EBAD98 /* ViewController.m */,
+				BEC623761CDDE36A00EBAD98 /* RoposoBaseViewController.h */,
+				BEC623771CDDE36A00EBAD98 /* RoposoBaseViewController.m */,
+				BEC623781CDDE36A00EBAD98 /* RoposoBaseViewController.xib */,
+				BEC623801CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.h */,
+				BEC623811CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.m */,
+				BEC623821CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BEC623671CDDCC0D00EBAD98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6237B1CDDF5F000EBAD98 /* RoposoStoryCardCell.h */,
+				BEC6237C1CDDF5F000EBAD98 /* RoposoStoryCardCell.m */,
+				BEC6237D1CDDF5F000EBAD98 /* RoposoStoryCardCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BEC623681CDDCC0D00EBAD98 /* UtilityAndConstants */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6236A1CDDCCB800EBAD98 /* JSONFiles */,
+				BEC6236D1CDDCDC800EBAD98 /* RoposoConstant.h */,
+				BEC6236E1CDDCDC800EBAD98 /* RoposoConstant.m */,
+				27E4A5361CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.h */,
+				27E4A5371CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.m */,
+			);
+			path = UtilityAndConstants;
+			sourceTree = "<group>";
+		};
+		BEC623691CDDCC0D00EBAD98 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				27E4A5391CDF8C2E00CB625A /* RobosoNetOperation.h */,
+				27E4A53A1CDF8C2E00CB625A /* RobosoNetOperation.m */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		BEC6236A1CDDCCB800EBAD98 /* JSONFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6236B1CDDCD0F00EBAD98 /* iOS_Android Data.json */,
+			);
+			path = JSONFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC623461CDDCB2E00EBAD98 /* RoposoSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC623611CDDCB2E00EBAD98 /* Build configuration list for PBXNativeTarget "RoposoSample" */;
+			buildPhases = (
+				BEC623431CDDCB2E00EBAD98 /* Sources */,
+				BEC623441CDDCB2E00EBAD98 /* Frameworks */,
+				BEC623451CDDCB2E00EBAD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoposoSample;
+			productName = RoposoSample;
+			productReference = BEC623471CDDCB2E00EBAD98 /* RoposoSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC6233F1CDDCB2E00EBAD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Divya;
+				TargetAttributes = {
+					BEC623461CDDCB2E00EBAD98 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = BEC623421CDDCB2E00EBAD98 /* Build configuration list for PBXProject "RoposoSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC6233E1CDDCB2E00EBAD98;
+			productRefGroup = BEC623481CDDCB2E00EBAD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC623461CDDCB2E00EBAD98 /* RoposoSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC623451CDDCB2E00EBAD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC6235D1CDDCB2E00EBAD98 /* LaunchScreen.storyboard in Resources */,
+				BEC6235A1CDDCB2E00EBAD98 /* Assets.xcassets in Resources */,
+				BEC6236C1CDDCD0F00EBAD98 /* iOS_Android Data.json in Resources */,
+				BEC623841CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.xib in Resources */,
+				BEC6237F1CDDF5F000EBAD98 /* RoposoStoryCardCell.xib in Resources */,
+				BEC6237A1CDDE36A00EBAD98 /* RoposoBaseViewController.xib in Resources */,
+				BEC623551CDDCB2E00EBAD98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC623431CDDCB2E00EBAD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC6237E1CDDF5F000EBAD98 /* RoposoStoryCardCell.m in Sources */,
+				BEC623751CDDD06300EBAD98 /* RoposoStoryDetails.m in Sources */,
+				BEC623791CDDE36A00EBAD98 /* RoposoBaseViewController.m in Sources */,
+				BEC623521CDDCB2E00EBAD98 /* ViewController.m in Sources */,
+				27E4A5381CDF89A400CB625A /* UIImageView+RoposoImageViewCategory.m in Sources */,
+				BEC623581CDDCB2E00EBAD98 /* RoposoSample.xcdatamodeld in Sources */,
+				BEC623721CDDD04000EBAD98 /* RoposoStoryAuthor.m in Sources */,
+				27E4A53B1CDF8C2E00CB625A /* RobosoNetOperation.m in Sources */,
+				BEC6236F1CDDCDC800EBAD98 /* RoposoConstant.m in Sources */,
+				BEC623831CDDFCF400EBAD98 /* RoposoStoryDetailsViewController.m in Sources */,
+				BEC6234F1CDDCB2E00EBAD98 /* AppDelegate.m in Sources */,
+				BEC6234C1CDDCB2E00EBAD98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC623531CDDCB2E00EBAD98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC623541CDDCB2E00EBAD98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC6235B1CDDCB2E00EBAD98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC6235C1CDDCB2E00EBAD98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC6235F1CDDCB2E00EBAD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEC623601CDDCB2E00EBAD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC623621CDDCB2E00EBAD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoposoSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pocimy.RoposoSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC623631CDDCB2E00EBAD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoposoSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pocimy.RoposoSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC623421CDDCB2E00EBAD98 /* Build configuration list for PBXProject "RoposoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC6235F1CDDCB2E00EBAD98 /* Debug */,
+				BEC623601CDDCB2E00EBAD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC623611CDDCB2E00EBAD98 /* Build configuration list for PBXNativeTarget "RoposoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC623621CDDCB2E00EBAD98 /* Debug */,
+				BEC623631CDDCB2E00EBAD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEC623561CDDCB2E00EBAD98 /* RoposoSample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEC623571CDDCB2E00EBAD98 /* RoposoSample.xcdatamodel */,
+			);
+			currentVersion = BEC623571CDDCB2E00EBAD98 /* RoposoSample.xcdatamodel */;
+			path = RoposoSample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEC6233F1CDDCB2E00EBAD98 /* Project object */;
+}
